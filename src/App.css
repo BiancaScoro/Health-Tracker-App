@@ -1,0 +1,285 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.app-header{
+    display: flex;
+    gap: 1000px;
+    padding: 20px;
+    background-color: #496fa8;
+}
+
+.logo{
+    color: #fff;
+    font-family: 'quicksand', 'sans-serif';
+}
+
+.date{
+    color: #fff;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 100;
+}
+
+.calories{
+    padding: 20px;
+}
+
+.calories h1{
+    font-family: 'Inter', 'sans-serif';
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+.calories h1 span{
+    color: #299c96;
+}
+
+.calories h2{
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 600;
+}
+
+.calories-form{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.calories-form input{
+    width: 30%;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.calories-form button{
+    border-radius: 20px;
+    border: none;
+    background-color: #299c96;
+    font-family: 'Inter', 'sans-serif';
+    width: 90px;
+    height: 30px;
+}
+
+.calories-form button:hover{
+    background-color: #496fa8;
+}
+
+.meals-counter{
+    padding: 20px;
+}
+
+.meals-counter h2{
+    font-family: 'Inter', 'sans-serif';
+}
+
+.meals-counter h2 span{
+    color: #496fa8;
+}
+
+.delete-meals{
+    position: absolute;
+    top: 380px;
+    left: 270px;
+}
+
+.btn-delete-all{
+   width: 90px;
+   height: 34px;
+   border-radius: 20px;
+   border: none;
+   background-color: #496fa8;
+   color: #fff;
+}
+
+.btn-delete-all:hover{
+    background-color: #299c96;
+}
+
+.meals-container-select{
+    position: absolute;
+    top: 430px;
+    left: 20px;
+}
+
+.meal-list-container-wrapper{
+    position: absolute;
+    top: 470px;
+    left: 20px;
+    border-radius: 7px;
+    background-color: #e0ecfe;
+    width: 200px;
+}
+
+.meal-list-container-wrapper-inner{
+    padding: 30px;
+}
+
+.meal-calories{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.gap{
+    padding: 15px;
+}
+.delete-meal-btn{
+    border-radius: 20px;
+    border: none;
+    background-color: #299c96;
+    font-family: 'Inter', 'sans-serif';
+    width: 90px;
+    height: 30px;
+}
+.app-modal{
+    width: 400px;
+    height: 200px;
+    background: #e0ecfe;
+    border: 1px solid #496fa8;
+    border-radius: 7px;
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Inter', "sans-serif";
+    z-index: 2;
+}
+
+.close-modal-btn{
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    background: #496fa8;
+    color: #fff;
+    border-radius: 7px;
+    width: 85%;
+}
+
+.meals-container-select{
+    outline: none;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.steps {
+    position: absolute;
+    top: 135px;
+    left: 900px;
+}
+
+.steps h2{
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 600;
+}
+
+.steps-form{
+padding-top: 40px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.steps-form input{
+    width: 425px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.steps-form button{
+    border-radius: 20px;
+    border: none;
+    background-color: #299c96;
+    font-family: 'Inter', 'sans-serif';
+    width: 90px;
+    height: 30px;
+}
+
+.steps-form button:hover{
+background-color: #496fa8;
+}
+
+.steps-container-select{
+    position: absolute;
+    top: 430px;
+    left: 895px;
+}
+
+.steps-counter{
+    padding: 20px;
+}
+
+.steps-counter h2{
+    font-family: 'Inter', 'sans-serif';
+    position: absolute;
+    top: 370px;
+    left: 890px;
+}
+
+.steps-counter h2 span{
+    color: #496fa8;
+}
+
+.delete-steps{
+    position: absolute;
+    top: 380px;
+    left: 1270px;
+}
+
+
+.delete-all-btn{
+    width: 90px;
+    height: 34px;
+    border-radius: 20px;
+    border: none;
+    background-color: #496fa8;
+    color: #fff;
+ }
+
+ .steps-list-container-wrapper{
+    position: absolute;
+    top: 470px;
+    left: 895px;
+    border-radius: 7px;
+    background-color: #e0ecfe;
+    width: 200px;
+}
+
+.steps-list-container-wrapper-inner{
+    padding: 30px;
+}
+
+.steps-list{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.delete-steps-btn{
+    border-radius: 20px;
+    border: none;
+    background-color: #299c96;
+    font-family: 'Inter', 'sans-serif';
+    width: 90px;
+    height: 30px;
+}
+
